@@ -1,4 +1,4 @@
-CFLAGS := -Wall -Werror -pedantic -std=c99
+CFLAGS := -include stdio.h -include stdlib.h -Wall -Werror -pedantic -std=c99
 CC := clang
 
 sparkl:
