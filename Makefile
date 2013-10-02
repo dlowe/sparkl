@@ -3,7 +3,7 @@ CC := clang
 
 .PHONY: test
 test: sparkl iocccsize
-	echo SIZE: `./iocccsize -i < sparkl.c`
+	@echo SIZE: `./iocccsize -i < sparkl.c`
 	./test
 
 .PHONY: clean
