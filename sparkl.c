@@ -1,9 +1,6 @@
-char **V, n, x, i;
-float f(s) {
-        return strtof(V[s], 0);
-}
-main(int c, char **v) {
-        for (V=v, i = c - (n=x=1); i; --i)
+main(c,v)char**v;{
+        char n,x,i;
+        for (i = c - (n=x=1); i; --i)
                 f(i) < f(n) && (n = i),
                 f(i) > f(x) && (x = i);
         for (i++; i < c;)
