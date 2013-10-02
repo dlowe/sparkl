@@ -10,5 +10,5 @@ int main(int c, char **v) {
                         x = i;
         }
         for (i = 1; i < c; ++i)
-                printf("%c%c%c%.*s", 226, 150, 129 + (int)((f(v[i]) - f(v[n])) / ((f(v[x]) - f(v[n])) / 8)), i+1 == c, "\n");
+                printf("\xe2\x96%c%.*s", 129 + (int)((f(v[i]) - f(v[n])) / ((f(v[x]) - f(v[n])) / 8)), i+1 == c, "\n");
 }
