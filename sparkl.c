@@ -7,5 +7,5 @@ main(int c, char **v) {
                 f(i) < f(n) && (n = i),
                 f(i) > f(x) && (x = i);
         for (i++; i < c;)
-                printf("\xe2\x96%c%.*s", 129 + (int)((f(i) - f(n)) / ((f(x) - f(n)) / 8)), i++ == c, "\n");
+                printf("\xe2\x96%c%.*s", 129 + (int)(8 * (f(i) - f(n)) / (f(x) - f(n))), i++ == c, "\n");
 }
