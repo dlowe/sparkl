@@ -1,5 +1,5 @@
-main(c,v)char**v;{
-    char n=1,x=n,i=c-x;
-    for (;i;i--) _(i) < _(n) ? n = i : _(i) > _(x) ? x = i : 7;
-    while (++i < c) printf("\xe2\x96%c", 129 + (**v = 8 * (_(i) - _(n)) / (_(x) - _(n))));
+main(a,b)char**b;{
+    char c=1,d=c,e=a-d;
+    for (;e;e--) _(e) < _(c) ? c = e : _(e) > _(d) ? d = e : 7;
+    while (++e < a) printf("\xe2\x96%c", 129 + (**b = 8 * (_(e) - _(c)) / (_(d) - _(c))));
 }

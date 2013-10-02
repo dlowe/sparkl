@@ -1,4 +1,4 @@
-CFLAGS := -include stdio.h -include stdlib.h -Wall -pedantic -std=c99 -D'_(x)=strtof(v[x],0)'
+CFLAGS := -include stdio.h -include stdlib.h -Wall -pedantic -std=c99 -D'_(x)=strtof(b[x],0)'
 CC := clang
 
 .PHONY: test
