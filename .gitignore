@@ -1,3 +1,5 @@
 *.swp
 sparkl
 iocccsize
+prog
+prog.c
