@@ -1,0 +1,11 @@
+#!/usr/bin/env bash -e
+
+test "▁"        = `./sparkl 1`
+test "▁"        = `./sparkl 0.12`
+test "▁▉"       = `./sparkl 0 1`
+test "▁▅▉"      = `./sparkl -50 0 50`
+test "▉▅▁"      = `./sparkl 0.1 0 -0.1`
+test "▁▂▃▄▅▆▇▉" = `./sparkl 0 1 2 3 4 5 6 7`
+test "▁▂▃▄▅▆▇▉" = `./sparkl 0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08`
+
+exit 0

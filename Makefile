@@ -3,5 +3,10 @@ CC := clang
 
 sparkl:
 
+.PHONY: test
+test: sparkl
+	./test
+
+.PHONY: clean
 clean:
 	rm -rf sparkl
