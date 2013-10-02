@@ -14,7 +14,6 @@ int main(int c, char **v) {
         }
         for (int i = 1; i < c; ++i) {
                 int x = ((strtof(v[i], 0) - min) / ((max - min) / 8));
-                printf("%c%c%c", 226, 150, 129 + x);
+                printf("%c%c%c%.*s", 226, 150, 129 + x, i+1 == c, "\n");
         }
-        printf("\n");
 }
